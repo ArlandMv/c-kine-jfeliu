@@ -41,7 +41,7 @@ const SocialProof = () => {
 				</div>
 				<div class="text-gray-400">
 					<img
-						alt="hdsalvadorvalpo's profile picture"
+						alt="hospital del salvador valpo"
 						class="_aa8j"
 						crossorigin="anonymous"
 						draggable="false"
@@ -51,7 +51,7 @@ const SocialProof = () => {
 
 				<div class="text-gray-400">
 					<img
-						alt="hospital del salvador valpo"
+						alt="Hospital San Juan de Dios"
 						class="_aa8j"
 						crossorigin="anonymous"
 						draggable="false"
