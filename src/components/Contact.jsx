@@ -14,10 +14,12 @@ const Contact = () => {
 				<form
 					name="contact"
 					method="POST"
-					data-netlify="true"
+					netlify
 					onSubmit="submit"
 					data-netlify-honeypot="important"
-					className="max-w-xl py-6 mx-auto">
+					className="max-w-xl py-6 mx-auto"
+					hidden>
+					{/* <!-- action="/success/" success.html --> */}
 					<input className="d-none" name="important" />
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
