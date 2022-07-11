@@ -12,13 +12,12 @@ const Contact = () => {
 					more than happy to offer you our help
 				</p>
 				<form
-					name="contact"
+					name="contact-form"
 					method="POST"
-					netlify
+					data-netlify="true"
 					onSubmit="submit"
 					data-netlify-honeypot="important"
 					className="max-w-xl py-6 mx-auto">
-					{/* <!-- action="/success/" success.html --> */}
 					<input className="d-none" name="important" />
 					<input
 						type="hidden"
@@ -59,7 +58,7 @@ const Contact = () => {
 							name="phone"
 							id="phone"
 							className="w-full py-3 mt-1 text-base bg-gray-100 border-2 border-gray-100 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-indigo-300 focus:border-gray-100"
-							placeholder="123-456-7890"
+							placeholder="+561-2345-6789"
 						/>
 					</div>
 					<div className="mb-8">
