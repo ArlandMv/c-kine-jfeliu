@@ -17,14 +17,18 @@ const Contact = () => {
 					netlify
 					onSubmit="submit"
 					data-netlify-honeypot="important"
-					className="max-w-xl py-6 mx-auto"
-					hidden>
+					className="max-w-xl py-6 mx-auto">
 					{/* <!-- action="/success/" success.html --> */}
 					<input className="d-none" name="important" />
+					<input
+						type="hidden"
+						className="d-none"
+						name="subject"
+						value="Formulario de Contacto from jose-feliu.netlify.app "
+					/>
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
-							{' '}
-							Name{' '}
+							Name
 						</label>
 						<input
 							type="text"
