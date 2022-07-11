@@ -15,6 +15,7 @@ const Contact = () => {
 					name="contact"
 					method="POST"
 					data-netlify="true"
+					onSubmit="submit"
 					className="max-w-xl py-6 mx-auto">
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
@@ -43,8 +44,7 @@ const Contact = () => {
 					</div>
 					<div className="mb-4">
 						<label for="phone" className="text-gray-100">
-							{' '}
-							Phone{' '}
+							Phone
 						</label>
 						<input
 							type="tel"
