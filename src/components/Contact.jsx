@@ -15,15 +15,12 @@ const Contact = () => {
 					name="contact-form"
 					method="POST"
 					data-netlify="true"
-					/* onSubmit="submit" */
-					/* data-netlify-honeypot="important" */
 					className="max-w-xl py-6 mx-auto">
 					{/* <input className="d-none" name="important" /> */}
 					<input
 						type="hidden"
-						className="d-none"
-						name="subject"
-						value="Formulario de Contacto from jose-feliu.netlify.app "
+						name="ContactForm"
+						value="Forms from jose-feliu.netlify.app "
 					/>
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
