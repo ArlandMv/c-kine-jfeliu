@@ -12,16 +12,13 @@ const Contact = () => {
 					more than happy to offer you our help
 				</p>
 				<form
-					name="contact-form2"
+					name="kine-contact"
 					method="POST"
 					data-netlify="true"
+					onSubmit="submit"
 					/* data-netlify-honeypot="important" */
 					className="max-w-xl py-6 mx-auto">
-					{/* <input
-						type="hidden"
-						name="ContactForm"
-						value="Forms from jose-feliu.netlify.app "
-					/> */}
+					{<input type="hidden" name="form-name" value="kine-contact" />}
 					{/* <input className="d-none" name="important" /> */}
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
