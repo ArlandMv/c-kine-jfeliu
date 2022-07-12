@@ -12,17 +12,17 @@ const Contact = () => {
 					more than happy to offer you our help
 				</p>
 				<form
-					name="contact-form"
+					name="contact-form2"
 					method="POST"
 					data-netlify="true"
-					data-netlify-honeypot="important"
+					/* data-netlify-honeypot="important" */
 					className="max-w-xl py-6 mx-auto">
 					{/* <input
 						type="hidden"
 						name="ContactForm"
 						value="Forms from jose-feliu.netlify.app "
 					/> */}
-					<input className="d-none" name="important" />
+					{/* <input className="d-none" name="important" /> */}
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
 							Nombre
@@ -32,7 +32,7 @@ const Contact = () => {
 							name="name"
 							id="name"
 							className="w-full py-3 mt-1 text-base bg-gray-100 border-2 border-gray-100 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-indigo-300 focus:border-gray-100"
-							placeholder="Full Name"
+							placeholder="Nombre Completo"
 						/>
 					</div>
 					<div className="mb-4">
@@ -67,7 +67,7 @@ const Contact = () => {
 							name="message"
 							id="message"
 							className="w-full py-3 mt-1 text-base bg-gray-100 border-2 border-gray-100 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-700 focus:ring-indigo-300 focus:border-gray-100"
-							placeholder="Let us know how we can help you!"></textarea>
+							placeholder="Deje sus consultas o pida hora aqui"></textarea>
 					</div>
 					<button
 						type="submit"
