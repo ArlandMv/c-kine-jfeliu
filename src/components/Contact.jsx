@@ -15,16 +15,17 @@ const Contact = () => {
 					name="contact-form"
 					method="POST"
 					data-netlify="true"
+					data-netlify-honeypot="important"
 					className="max-w-xl py-6 mx-auto">
-					{/* <input className="d-none" name="important" /> */}
-					<input
+					{/* <input
 						type="hidden"
 						name="ContactForm"
 						value="Forms from jose-feliu.netlify.app "
-					/>
+					/> */}
+					<input className="d-none" name="important" />
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
-							Name
+							Nombre
 						</label>
 						<input
 							type="text"
@@ -48,7 +49,7 @@ const Contact = () => {
 					</div>
 					<div className="mb-4">
 						<label for="phone" className="text-gray-100">
-							Phone
+							Telefono
 						</label>
 						<input
 							type="tel"
@@ -60,7 +61,7 @@ const Contact = () => {
 					</div>
 					<div className="mb-8">
 						<label for="message" className="text-gray-100">
-							Message
+							Mensaje
 						</label>
 						<textarea
 							name="message"
