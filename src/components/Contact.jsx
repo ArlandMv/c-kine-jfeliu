@@ -15,7 +15,7 @@ const Contact = () => {
 					name="contact-form"
 					method="POST"
 					data-netlify="true"
-					onSubmit="submit"
+					/* onSubmit="submit" */
 					data-netlify-honeypot="important"
 					className="max-w-xl py-6 mx-auto">
 					<input className="d-none" name="important" />
