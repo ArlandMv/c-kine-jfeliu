@@ -26,9 +26,8 @@
 </head>
 
 <body>
-  <form name="kine-contact" method="POST" data-netlify="true" hidden>
-    <!-- data-netlify-honeypot="bot-field" -->
-    <!-- <input type="bot-field" name="subject" value="Formulario de Contacto from jose-feliu.netlify.app " /> -->
+  <form name="kine-contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+    <input className="hidden" name="bot-field" />
     <input type="text" name="name" />
     <input type="email" name="email" />
     <input type="tel" name="phone" />
