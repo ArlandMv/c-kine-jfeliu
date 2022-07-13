@@ -16,10 +16,10 @@ const Contact = () => {
 					method="POST"
 					data-netlify="true"
 					onSubmit="submit"
-					/* data-netlify-honeypot="important" */
+					data-netlify-honeypot="important"
 					className="max-w-xl py-6 mx-auto">
-					{<input type="hidden" name="form-name" value="kine-contact" />}
-					{/* <input className="d-none" name="important" /> */}
+					<input type="hidden" name="form-name" value="kine-contact" />
+					<input className="d-none" name="important" />
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
 							Nombre
