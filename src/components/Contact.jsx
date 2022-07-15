@@ -1,6 +1,11 @@
-import React from 'react';
+import { useState } from 'react';
 
 const Contact = () => {
+	const [name, setName] = useState('');
+	const [email, setEmail] = useState('');
+	const [phone, setPhone] = useState('');
+
+	//const [date, setDate] = useState(Date.now());
 	return (
 		<section id="5contact" className="w-full py-8 bg-gray-700">
 			<div className="max-w-2xl px-4 mx-auto sm:px-6 md:px-8">
@@ -15,14 +20,15 @@ const Contact = () => {
 					name="kine-contact"
 					method="POST"
 					data-netlify="true"
-					onSubmit="submit"
 					data-netlify-honeypot="bot-field"
+					onSubmit="submit"
+					action="/index/"
 					className="max-w-xl py-6 mx-auto">
 					<input type="hidden" name="form-name" value="kine-contact" />
 					<input className="" name="bot-field" />
 					<div className="mb-4">
 						<label for="name" className="text-gray-100">
-							Nombre
+							Nombre Completo
 						</label>
 						<input
 							type="text"
