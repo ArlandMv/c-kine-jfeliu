@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Presentacion = () => {
+const Hero = () => {
 	return (
-		<section id="1presentacion" class="py-16 bg-white">
+		<section id="1hero" class="py-16 bg-white">
 			<div class="flex flex-col justify-between max-w-6xl mx-auto lg:flex-row sm:px-6 lg:px-8">
 				<img
 					class="lg:order-2 mx-5 bg-slate-500 rounded-lg lg:w-1/2 lg:mr-8"
 					width="500"
-					src="./assets/working-illustration.svg.png"
+					src="./assets/working-illustration.svg"
 					alt=""
 				/>
 
@@ -23,9 +23,9 @@ const Presentacion = () => {
 					</p>
 					<div class="flex flex-col w-full mt-6 space-y-3 lg:space-y-0 lg:space-x-3 lg:flex-row lg:px-0">
 						<a
-							href="#"
+							href="#5contact"
 							class="inline-flex items-center justify-center px-6 py-3 mx-auto text-lg font-medium text-white rounded-md lg:mx-0 bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
-							<span>Reserva Hora</span>
+							<span>Reservar Hora</span>
 							<svg
 								class="w-5 h-5 ml-2"
 								xmlns="http://www.w3.org/2000/svg"
@@ -53,4 +53,4 @@ const Presentacion = () => {
 	);
 };
 
-export default Presentacion;
+export default Hero;
